@@ -1,0 +1,41 @@
+[
+  {
+    "id": "c670b0fc-5eb7-4dba-96fd-df3385c27ebe",
+    "email": "alex.mercer@example.com",
+    "password_hash": "$2a$10$FGTdu6lha6nRtT0qcRTjWu43Uvi988KXLc6pwzSDv.TsnncRn54pm",
+    "full_name": "Alex Mercer",
+    "is_verified": true,
+    "verification_otp": null,
+    "otp_expires_at": null,
+    "reset_token": null,
+    "reset_expires_at": null,
+    "created_at": "2026-10-03T14:59:50.726Z",
+    "updated_at": "2026-10-03T15:00:04.017Z"
+  },
+  {
+    "id": "7b258972-b28e-44b2-921d-647871fefcc2",
+    "email": "john.doe625@testmail.com",
+    "password_hash": "$2a$10$1uU75qW.0./RMfy.elNlFe0q/vsMNoBPaXE9v0czZL9XA5TfJJJaa",
+    "full_name": "Johnathan Doe",
+    "is_verified": true,
+    "verification_otp": null,
+    "otp_expires_at": null,
+    "reset_token": null,
+    "reset_expires_at": null,
+    "created_at": "2026-10-03T15:07:21.567Z",
+    "updated_at": "2026-10-03T15:07:28.277Z"
+  },
+  {
+    "id": "06dd0c34-e655-42bf-a65c-11e41b4ca6cf",
+    "email": "luckysomya8@gmail.com",
+    "password_hash": "$2a$10$0qT5G4hKR5eUN09aVltILOaFRQ8BnrCBw2LM6XamO/Y2YsvNKlKrm",
+    "full_name": "Barsha priyadarshini Behura",
+    "is_verified": false,
+    "verification_otp": "525775",
+    "otp_expires_at": "2026-10-03T15:34:00.728Z",
+    "reset_token": null,
+    "reset_expires_at": null,
+    "created_at": "2026-10-03T15:19:00.728Z",
+    "updated_at": "2026-10-03T15:19:00.728Z"
+  }
+]

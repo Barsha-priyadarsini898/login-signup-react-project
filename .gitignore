@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+*/node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables & secrets (CRITICAL)
+.env
+.env.*
+!.env.example
+server/.env
+client/.env
+
+# Production build outputs
+dist/
+dist-ssr/
+client/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary / sub repos
+antigravity-project/

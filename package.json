@@ -1,0 +1,15 @@
+{
+  "name": "user-auth-app",
+  "version": "1.0.0",
+  "description": "Fullstack User Authentication with React, Node.js, Express, Nodemailer, and Supabase",
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"npm run dev:server\" \"npm run dev:client\"",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
